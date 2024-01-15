@@ -1,4 +1,6 @@
-# React-hw-02-feedback
+# React-hw-04-feedback
+
+Refactoring code using hooks
 
 ## Feedback widget
 
