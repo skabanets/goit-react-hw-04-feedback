@@ -8,7 +8,7 @@ export const FeedbackWidget = () => {
   const [feedback, setFeedback] = useState({ good: 0, neutral: 0, bad: 0 });
 
   const onLeaveFeedback = item => {
-    setFeedback(prevState => ({ ...prevState, [item]: prevState[item] + 1 }));
+    setFeedback(prev => ({ ...prev, [item]: prev[item] + 1 }));
   };
 
   const countTotalFeedback = () => {
